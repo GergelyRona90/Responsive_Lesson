@@ -37,6 +37,6 @@ h2 {
   color: #8c8e9b;
 }
 
-img { 
-  width: 15.625rem;
+.picture {
+  width: 100%;
 }
