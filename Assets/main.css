@@ -1,15 +1,19 @@
 /* ==== HELPER COLORS FOR LAYOUT ==== */
 
+* {
+	box-sizing: border-box;
+}
 .main-header {
-	background-color: rgba(255, 248, 53, .3);
+  background-color: rgba(255, 248, 53, .3);
 }
 
 .primary-content {
-	background-color: rgba(140, 96, 255, .3);
+  background-color: rgba(140, 96, 255, .3);
 }
 
 .post {
-	background-color: rgba(255, 0, 0, .3);
+  background-color: rgba(255, 0, 0, .3);
+
 }
 body {
   font-family: 'Judson', serif;
@@ -37,6 +41,21 @@ h2 {
   color: #8c8e9b;
 }
 
+/* ==== LAYOUT STYLES ==== */
+
+/* Main Header Styles */
+.main-header {
+	text-align: center;
+	padding: 1.25rem;
+}
+
+/* Article Styles */
+.post {
+	width: 95%;
+	margin: 1.25rem auto;
+	padding: 0.3125rem;
+}
+
 .picture {
-  width: 100%;
+	width: 100%;
 }
