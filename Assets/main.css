@@ -80,6 +80,23 @@ img,
 	}
 
 }
+@media (min-width: 1025px) {
+
+	.main-header {
+		width: 20.625%;
+	}
+
+}
+@media (min-width: 1025px) {
+
+	.primary-content {
+		float: none;
+		position: absolute;
+        left: 20.625%;
+	}
+
+}
+
 /* Article Styles */
 .post {
 	width: 95%;
